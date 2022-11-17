@@ -20,7 +20,7 @@ entries/columns, sorted by date between May 2008 and November
 2010.
 
 ## Attributes Information 
-1. # Attributes information:
+### 1.Attributes information:
 - Age (Numeric)
 - Job: type of job (categorical)
 - Marital: marital status (categorical)
@@ -28,12 +28,12 @@ entries/columns, sorted by date between May 2008 and November
 - Default: has credit in default? (categorical)
 - Housing: has housing loan? (categorical)
 - Loan: has personal loan? (categorical)
-2. #regarding the latest contact in the ongoing campaign:#
+### 2. regarding the latest contact in the ongoing campaign:
 - Contact: contact communication type (categorical)
 - Month: last contact month of year (categorical)
 - Day_of_week: last contact day of the week (categorical)
 - Duration: last contact duration, in seconds (numeric)
-3. #other attributes:#
+### 3. other attributes:
 - Campaign: number of contacts performed during this campaign and for this 
 client (numeric, includes last contact)
 - Pdays: number of days that passed by after the client was last contacted from a 
@@ -41,7 +41,7 @@ previous campaign (numeric; 999 means client was not previously contacted)
 - Previous: number of contacts performed before this campaign and for this client 
 (numeric)
 - Poutcome: outcome of the previous marketing campaign (categorical)
-4. #social and economic context attributes:#
+### 4. social and economic context attributes:
 - Emp.var.rate: employment variation rate - quarterly indicator (numeric)
 - Cons.price.idx: consumer price index - monthly indicator (numeric) 
 - Cons.conf.idx: consumer confidence index - monthly indicator (numeric) 
