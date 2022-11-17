@@ -20,7 +20,7 @@ entries/columns, sorted by date between May 2008 and November
 2010.
 
 ## Attributes Information 
-1. Attributes information:
+1. # Attributes information:
 - Age (Numeric)
 - Job: type of job (categorical)
 - Marital: marital status (categorical)
@@ -28,12 +28,12 @@ entries/columns, sorted by date between May 2008 and November
 - Default: has credit in default? (categorical)
 - Housing: has housing loan? (categorical)
 - Loan: has personal loan? (categorical)
-2. regarding the latest contact in the ongoing campaign:
+2. #regarding the latest contact in the ongoing campaign:#
 - Contact: contact communication type (categorical)
 - Month: last contact month of year (categorical)
 - Day_of_week: last contact day of the week (categorical)
 - Duration: last contact duration, in seconds (numeric)
-3. other attributes:
+3. #other attributes:#
 - Campaign: number of contacts performed during this campaign and for this 
 client (numeric, includes last contact)
 - Pdays: number of days that passed by after the client was last contacted from a 
@@ -41,13 +41,14 @@ previous campaign (numeric; 999 means client was not previously contacted)
 - Previous: number of contacts performed before this campaign and for this client 
 (numeric)
 - Poutcome: outcome of the previous marketing campaign (categorical)
-4. social and economic context attributes
+4. #social and economic context attributes:#
 - Emp.var.rate: employment variation rate - quarterly indicator (numeric)
 - Cons.price.idx: consumer price index - monthly indicator (numeric) 
 - Cons.conf.idx: consumer confidence index - monthly indicator (numeric) 
 - Euribor3m: euribor 3 month rate - daily indicator (numeric)
 - Nr.employed: number of employees - quarterly indicator (numeric)
 
+## Project Summary -
 We started with performing an exploratory data analysis and concluded that there are no missing values in the data. This was followed with a Univariate analysis where we wanted to look at the distribution of every single feature. We then followed this with a bivariate analysis to understand hwo every feature is related with the Target variable. This was followed up with a Correlation Analysis and we found out that there was a high correlation between Euribor3m and nr_employed. Also there seems to be high correlation between nr_employed and emp_var_rate. We decided to removed Euribor3m and nr_employed before we move further with the modeling exercise. 
 We worked on 4 classification algorithms - Decision Trees, Random Forest, Logistic Regression and Gradient Boost. We used AUC ROC Score to evaluate the models. Of the 4 models, Gradient boost came out as the champion model with an AUC ROC score of 0.944. We further performed a K-Means CLustering, to identify the most optimum number of clusters in the data based on a metric called "Silhouette Score". We found 3 to be the most optimum number of Clusters. 
 
