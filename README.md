@@ -15,9 +15,8 @@ was required., in order to access if the product (deposit) would be
 ('yes') or not ('no') subscribed
 3. The purpose of the classification is to forecast whether the customer 
 will signup (yes/no) a term deposit (variable y).
-4. The dataset: XYZ_Bank_Deposit_Data_Classification.csv, 20 
-entries/columns, sorted by date between May 2008 and November 
-2010.
+4. The dataset: XYZ_Bank_Deposit_Data_Classification.csv, 20 entries/columns, sorted by date between May 2008 and November 2010.
+
 ## Attributes Information 
 ### 1.Attributes information:
 - Age (Numeric)
